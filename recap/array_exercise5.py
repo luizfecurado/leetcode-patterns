@@ -20,3 +20,13 @@ lista=[497, 186, 66, 198, 204, 339, 738, 743,
        725, 477]
 
 print(maior(lista))
+
+
+def menor(lista):
+    menor = 0
+    for i in lista:
+        if i < menor:
+            menor = i
+    return menor
+
+print(menor(lista))

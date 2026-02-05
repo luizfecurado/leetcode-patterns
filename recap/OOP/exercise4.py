@@ -18,6 +18,6 @@ class Lampada:
             return self.__ligada
             
 lamp1=Lampada('amarela',110,80)
-print(lamp1.verificar_ligada())  #Inicializa desligada
-print(lamp1.ligar_desligar())  #Ligada
-print(lamp1.ligar_desligar())  #Desligada
+print(lamp1.verificar_ligada())  
+print(lamp1.ligar_desligar())  
+print(lamp1.ligar_desligar())  
